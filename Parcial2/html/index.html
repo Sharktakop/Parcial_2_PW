@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Fotos Marte</title>
+    <link rel="icon"  type="image/x-icon" href="../media/luna.png">
+    <style>
+        @import url("../css/index.css");
+    </style>
+</head>
+<body>
+    <!--favicon utilizado: https://www.flaticon.es/icono-gratis/luna_3226417?term=luna&page=1&position=6&origin=search&related_id=3226417-->
+ <div id="Completo">
+        <div id="resultados">
+        <div>
+        <h1>Mars Rover Photos</h1>
+        <label for="fecha">Earth Date: </label>
+        <input type="date" id="fecha" value="2015-07-02">
+        <button id="buscar"  onclick="mostrarResultados()"> Find </button> </br></br>
+        <table id="tabla">
+            <tr>
+            <th class="titulo">ID</th> 
+            <th class="titulo">Rover Name</th> 
+            <th class="titulo">Camera</th> 
+            <th  class="titulo">Details</th>
+            </tr>
+        </table>
+        </div>
+        <div id="botones">
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+        </div>
+    </div>
+    <div id="detalles">
+        <h2>Photo Detail</h2>
+        <img alt="imagen" id="imagen">
+        <div id="linea">
+            <div class="detalle"><h3>Id: </h3><p id="idx"></p></div>
+            <div class="detalle"><h3>Martian Sol: </h3><p id="ms"></p></div>
+            <div class="detalle"><h3>Earth-date: </h3><p id="date"></p></div>
+        </div>        
+    </div>
+ </div> 
+ <script src="../js/index.js"></script>
+</body>
+</html>
