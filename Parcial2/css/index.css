@@ -1,0 +1,104 @@
+body{
+    height: 100%; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#resultados{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+#detalles{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-left: 1px solid black ;
+}
+#Completo{
+    display:inline-flex;
+    border: 1px solid black;
+    gap: 20px;
+    margin:10px;
+    width: 80%;
+}
+#linea{
+    text-align: center;
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+    justify-content: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(199, 199, 199);
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid black ;
+}
+th, td{
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+#botones {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 10px; 
+    margin-top: 10px;
+}
+button{
+    padding: 5px 10px;
+}
+#fecha{
+    margin-left: 10px;
+}
+#buscar{
+    color: white;
+    background-color: rgb(35, 97, 188);
+    border-radius: 4px;
+    margin-left: 40px;
+}
+.detalles{
+    color: white;
+    background-color: rgb(35, 97, 188);
+    border-radius: 4px;
+}
+#next{
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+}
+#previous{
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+}
+.titulo{
+    background-color: black;
+    color: white;
+}
+#imagen {
+    max-width: 100%; 
+    height: auto;    
+    max-height: 400px; 
+    width: auto; 
+}
+.detalle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.detalle h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.detalle p {
+    margin: 0;
+    font-size: 16px;
+}
